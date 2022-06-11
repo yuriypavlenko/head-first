@@ -1,4 +1,4 @@
 # head-first
 Code from book about patterns, Java
 
-Эрик Фримен, Элизабет робсон, "Head First ПАТТЕРНЫ проектирования"
+Эрик Фримен, Элизабет Робсон, "Head First ПАТТЕРНЫ проектирования"
