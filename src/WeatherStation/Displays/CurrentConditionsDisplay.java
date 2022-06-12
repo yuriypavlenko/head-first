@@ -8,7 +8,6 @@ import WeatherStation.WeatherData;
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
-    private float heatIndex;
     private final Subject weatherData;
 
     public CurrentConditionsDisplay(WeatherData weatherData) {
@@ -17,10 +16,9 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     }
 
     @Override
-    public void update() {
-        this.temperature = weatherData.getTemperature();
-        this.humidity = weatherData.getHumididty();
-        this.heatIndex = weatherData.getHeatIndex();
+    public void update(float temp, float humidity, float pressure) {
+        this.temperature = temp;
+        this.humidity = humidity;
         display();
     }
 
@@ -28,6 +26,5 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     public void display() {
         System.out.println("Current conditions: " + temperature
             + "F degrees and " + humidity + "% humidity");
-        System.out.println("Heat index is " + heatIndex);
     }
 }
