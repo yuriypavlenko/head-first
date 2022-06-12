@@ -1,6 +1,6 @@
-package ducks;
+package MiniDuckSimulator.ducks;
 
-import ducks.behaviors.quack.QuackBehavior;
+import MiniDuckSimulator.ducks.behaviors.quack.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
 

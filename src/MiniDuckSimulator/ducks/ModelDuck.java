@@ -1,7 +1,7 @@
-package ducks;
+package MiniDuckSimulator.ducks;
 
-import ducks.behaviors.fly.FlyNoWay;
-import ducks.behaviors.quack.Quack;
+import MiniDuckSimulator.ducks.behaviors.fly.FlyNoWay;
+import MiniDuckSimulator.ducks.behaviors.quack.Quack;
 
 public class ModelDuck extends Duck {
 

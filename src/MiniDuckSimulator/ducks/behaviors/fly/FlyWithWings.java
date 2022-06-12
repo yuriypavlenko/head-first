@@ -1,4 +1,4 @@
-package ducks.behaviors.fly;
+package MiniDuckSimulator.ducks.behaviors.fly;
 
 public class FlyWithWings implements FlyBehavior {
 

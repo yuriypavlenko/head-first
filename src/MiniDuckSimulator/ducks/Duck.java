@@ -1,7 +1,7 @@
-package ducks;
+package MiniDuckSimulator.ducks;
 
-import ducks.behaviors.fly.FlyBehavior;
-import ducks.behaviors.quack.QuackBehavior;
+import MiniDuckSimulator.ducks.behaviors.fly.FlyBehavior;
+import MiniDuckSimulator.ducks.behaviors.quack.QuackBehavior;
 
 public abstract class Duck {
     FlyBehavior flyBehavior;
@@ -29,6 +29,6 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("All ducks float, even decoys!");
+        System.out.println("All MiniDuckSimulator.ducks float, even decoys!");
     }
 }

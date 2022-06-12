@@ -1,7 +1,7 @@
-package ducks;
+package MiniDuckSimulator.ducks;
 
-import ducks.behaviors.fly.FlyWithWings;
-import ducks.behaviors.quack.Quack;
+import MiniDuckSimulator.ducks.behaviors.fly.FlyWithWings;
+import MiniDuckSimulator.ducks.behaviors.quack.Quack;
 
 public class MallardDuck extends Duck {
 
