@@ -1,3 +1,8 @@
+package ducks;
+
+import ducks.behaviors.fly.FlyBehavior;
+import ducks.behaviors.quack.QuackBehavior;
+
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;

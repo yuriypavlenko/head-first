@@ -1,3 +1,5 @@
+package ducks.behaviors.fly;
+
 public class FlyNoWay implements FlyBehavior {
 
     @Override
