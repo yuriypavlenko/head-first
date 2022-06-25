@@ -13,6 +13,7 @@ public class ChicagoPizzaStore extends PizzaStore {
         if (type.equals("cheese")) {
             pizza = new CheesePizza(ingredientFactory);
             pizza.setName("Chicago Style Cheese Pizza");
+            pizza.setCutBy("square");
         }
 
         return pizza;

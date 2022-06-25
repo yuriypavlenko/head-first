@@ -12,6 +12,7 @@ public abstract class Pizza {
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;
+    protected String cutMethod = "diagonal";
 
     abstract void prepare();
 
@@ -20,7 +21,7 @@ public abstract class Pizza {
     }
 
     void cut() {
-        System.out.println("Cutting the pizza into diagonal slices");
+        System.out.println("Cutting the pizza into " + cutMethod + " slices");
     }
 
     void box() {
@@ -33,5 +34,13 @@ public abstract class Pizza {
 
     public String getName() {
         return name;
+    }
+
+    public void setCutBy(String method) {
+        if(method.equals("diagonal")) {
+            this.cutMethod = "diagonal";
+        } else if (method.equals("square")) {
+            this.cutMethod = "square";
+        }
     }
 }
