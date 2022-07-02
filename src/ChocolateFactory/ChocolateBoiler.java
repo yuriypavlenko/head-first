@@ -22,7 +22,7 @@ public class ChocolateBoiler {
     }
 
     public void fill() {
-        if(isEmpty()) {
+        if (isEmpty()) {
             empty = false;
             boiled = false;
             System.out.println("Filling boiler by the chocolate and milk");
